@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@900&display=swap"
+    rel="stylesheet"> <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Covid Tracker</title>
+  <style>
+    #details{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="font">COVID TRACKER</h1>
+
+  <form class="container" id="myForm">
+    <input type="text" name="contries" id="contries">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+
+  <div id="details" class="details">
+    <div id="confirmed"></div>
+    <div id="recovered"></div>
+    <div id="death"></div>
+  </div>
+</body>
+<script src="demo.js"></script>
+</html>

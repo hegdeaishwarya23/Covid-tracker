@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@900&display=swap');
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f39eae;
+  color: #131d5e;
+}
+
+.font {
+  font-weight: bolder;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+#contries {
+  width: 30rem;
+  height: 2.5rem;
+  border: 5px solid #131d5e;
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 2rem;
+  color: #dd3050;
+}
+button {
+  width: 2rem;
+  height: 3.15rem;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #131d5e;
+  color: #f86b85;
+}
+
+.details {
+  justify-content: space-evenly;
+  padding-top: 5rem;
+  text-transform: uppercase;
+}
+
+#confirmed {
+  background-color: #131d5e;
+  color: #f86b85;
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 5px solid #fff;
+}
+
+#recovered {
+  background-color: #131d5e;
+  color: #f86b85;
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 5px solid #fff;
+}
+
+#death {
+  background-color: #131d5e;
+  color: #f86b85;
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 5px solid #fff;
+}
